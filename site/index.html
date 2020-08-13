@@ -1,9 +1,155 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello Coursera!</title>
+	<meta charset="utf-8">
+	<title>Hello Everyone!</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+
+		
+
+		ul.arc{
+			color: orange;
+		}
+
+		h1{
+			color: green;
+			font-size: 30px;
+			text-align: center;
+		}
+
+		h2,p.mytest{
+			color: purple;
+			font-size: 25px;
+			text-align: center;
+			font-weight: bolder;
+			font-style: oblique;
+			background-color: gray;
+			opacity: .7;
+		}
+
+		div > p{
+			color: green;
+			font-size:25px;
+		}
+
+		div p{
+			color: red;
+
+		}
+
+		.mytest.mytesttwo{
+			color:blue;
+
+		}
+
+		header li {
+			list-style: none;
+		}
+		a:link, a:visited{
+			text-decoration: none;
+			background-color: green;
+			border: 1px solid blue;
+			color: black;
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 1px;
+		}
+
+		a:hover, a:active{
+			background-color: red;
+			color: purple;
+		}
+
+		header li:nth-child(3){
+			font-size: 24px;
+		}
+
+		ol li:nth-child(odd){
+			background-color: gray;
+		}
+		ol li:nth-child(odd):hover{
+			background-color: green;
+			cursor: pointer;
+		}
+		ol li:nth-child(even){
+			background-color: lightgray;
+		}
+
+	</style>
+
 </head>
 <body>
-<h1>Hello Coursera! This is nice!Teting browser sync </h1>
+<h1 id="top">Hello! This is a Testing and Reference Page for Myself.</h1>
+
+<header>
+	<ul>
+		<li><a href="https://www.google.com"target="_blank">Google</a></li>
+		<li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+		<li><a href="https://amazon.com" target="_blank">Amazon</a></li>
+	</ul>
+</header>
+
+ <h1 id="UL">Unordered list</h1>
+ <a href="#Link">Go to links section</a>
+
+ <div>
+ 	<p class="mytest mytesttwo">Let's test a list!</p>
+ 	<ol>
+ 		<li>item uno</li>
+ 		<li>item dos</li>
+ 		<li>item tres</li>
+ 		<li>item quatro
+ 			<ul class="arc">
+ 				<li>itchi</li>
+ 				<li>ni</li>
+ 				<li>san</li>
+ 				<li>shi/o</li>
+ 			</ul>
+ 		</li>
+ 		<li>extra item</li>	
+ 	</ol>
+ </div>
+
+<div>
+	<h2>Some character entity references. Actual entities only in code.</h2>
+		<p> &lt; = "<"<br> &gt; = ">"<br> &amp; = "&"<br> &copy; = copyright<br> &quot; = """ 
+			<br> &nbsp; = non-breaking space.
+		</p>
+</div>
+<!-- this is the way to comment -->
+
+<div>
+	<img src="b8.jpg" width="250" height="400" alt="Coffee">
+</div>
+<div>
+	<a href="https://www.imgur.com" target ="_blank">
+		<img src="https://help.imgur.com/hc/article_attachments/115003789423/sadgiraffe.png" width="600" height= "250">
+	</a>
+</div>
+
+
+
+ <section id="Link">
+ 	<div>
+ 		<a href="https://www.imgur.com" target="_blank" title="Going to Imgur">
+ 			<div>Let's go to Imgur!</div>
+ 		</a>
+ 	</div>
+ 	<div>
+ 		<a href="#top">Go to top</a>
+ 	</div>
+</section>
+
+<section id="moretext">
+	<div class="marked">
+		<p> Generic text that I am writing to take up more space everywhere and to showcase
+		some items from the CSS style sheets</p>
+		<h3>some smaller text in h3 format <p> and some words too</p></h3>
+	</div>
+</section>
+
+
 </body>
 </html>
