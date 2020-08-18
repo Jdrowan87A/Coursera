@@ -1,0 +1,112 @@
+
+header {
+	font-size: 45px;
+	font-weight: 750;
+	text-align: center;
+	color:blue;
+	margin-bottom: 20px;
+
+}
+body {
+	font-family: Arial, Helvetica, san-serif
+}
+
+
+div{
+	align-self: center;
+	box-sizing: border-box;
+	position: relative;
+	background-color: gray;
+	width:33%;
+	top:0;
+	height:200px;
+	float: left;
+	margin:1%;
+	border: 1px solid black;
+}
+
+
+p {
+	text-align: center ;
+	font-size: 25px;
+	font-weight: 250;
+
+}
+/*Titles in each box*/
+#p1 {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	background-color: red;
+	border: 2px solid black;
+	position: absolute;
+	top:-1px;
+	right:-1px;
+}
+#p2 {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	background-color: lightblue;
+	border: 2px solid black;
+	position: absolute;
+	top:-1px;
+	right:-1px;
+}
+#p3 {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	background-color: green;
+	border: 2px solid black;
+	position: absolute;
+	top:-1px;
+	right:-1px;
+}
+
+/* large devices, ie desktop*/
+@media (min-width: 992px){
+	#div1 {
+		width: 29%;
+		margin:2%;
+	}
+	#div2{
+		width: 29%;
+		margin:2%;
+	}
+	#div3{
+		width: 29%;
+		margin:2%;
+	}
+}
+
+/* medium devices ie tablets*/
+@media (min-width: 768px ) and (max-width: 991px){
+	#div1 {
+		width: 48%;
+		margin:1%;
+	}
+	#div2{
+		width: 48%;
+		margin:1%;
+	}
+	#div3{
+		width: 98%;
+		margin:1%;
+	}
+}
+/* small devices or portrait mode, ie mobile  */
+@media (max-width: 767px){
+	#div1 {
+		width: 98%;
+		margin:1%;
+	}
+	#div2{
+		width: 98%;
+		margin:1%;
+	}
+	#div3{
+		width: 98%;
+		margin:1%;
+	}
+}
