@@ -1,0 +1,65 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: gray;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+.navbar-header h1{
+	text-align: left;
+	font-size:35px;
+	color:green;
+	text-transform: uppercase;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 1px #222;
+  	margin-top: 5px;
+  	margin-bottom: 0;
+
+  	line-height: .75;
+}
+#header-nav{
+	background-color: lightgray;
+	border-radius: 0;
+	border:0;
+	font-family: 'Lora', serif;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    background-color: #339933;
+    color: white;
+    border: 1px solid black;
+  }
+
+.mypar{
+ 	font-size: 15px;
+ 	font-style: 'Oxygen', sans-serif;
+ 	text-align: center;
+ 	border: 1px black solid;
+ 	padding: 5px;
+ 	margin-top:25px;
+ 	background-color: lightgray;
+ 	color:black;
+ }
+ .paragraphs h2{
+ 	font-size: 45px;
+ 	margin-top: 100px;
+ 	/*text-align: center;*/
+ }
+ .paragraphs h3{
+ 	font-size: 25px;
+ 	margin-top: 15px;
+ 	margin-bottom: 25px;
+ 	color: darkgreen;
+ 	text-align: center;
+ }
